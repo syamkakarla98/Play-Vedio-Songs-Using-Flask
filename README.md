@@ -16,16 +16,20 @@
 
 ## How to run the file
 
-* Go to command prompt and type the command ' python fapp.py'
-* Then copy the link inthe cmd and openit on your browser.
+* Go to command prompt and type the command '**python fapp.py**'
+* Then **_copy the link in the cmd_** and openit on your browser.
+
         ![cmd](https://user-images.githubusercontent.com/36328597/42731218-64298e64-8826-11e8-8f8b-b629a1b0a26c.PNG)
 
 * Then the resultant web page looks like this:
+
         ![pic_web](https://user-images.githubusercontent.com/36328597/42731219-6466c680-8826-11e8-9b61-c72b491bb142.PNG)
 
-* Finally, you may enter the song name and click submit, automatically youtube will be opened along with your song.
+* Finally, you may **enter the song name** and click _submit_, automatically youtube will be opened along with your song.
 
 
-# License:
+## License:
 
+* This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/syamkakarla98/Play-Vedio-Songs-Using-Flask/blob/master/LICENSE.md) file for details.
 
+# [STARif ypu like this repositary]
