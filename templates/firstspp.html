@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo</title>
+        <link href="https://fonts.googleapis.com/css?family=Chela+One|Concert+One|Knewave|Permanent+Marker" rel="stylesheet">
+        
+        <style>
+            body {
+                    align-content: center;
+                    
+            }
+            div  h1 {color: #579ded ; 
+                    position: relative;
+                    font-size: 50px;
+                    margin-left: 15%;
+                    font-family: 'Permanent Marker', cursive;
+            }            
+
+            .iform {
+                align-content: center;
+                margin: auto;
+                width: 30%;
+                height: 60%;
+                position:absolute;
+                border: 5px solid #fc6464;
+                padding: 20px;
+                top:19%;
+                left:32%;
+                border-radius:10px;
+                box-shadow: 0 5px #f2f2f2;
+            }
+            .text{
+                font-style:normal;
+                font-size: 22px;
+                font-family: "Concert One", cursive;
+                
+            }
+            .button {
+                display: inline-block;
+                padding: 8px 20px;
+                font-size: 20px;
+                font-family: 'Chela One', cursive;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+                outline: none;
+                color: white;
+                background-color: #4CAF50;
+                border: none;
+                border-radius: 11px;
+                box-shadow: 0 5px #f2f2f2;
+                
+                
+             }
+  
+            .button:hover {background-color: #3e8e41}
+            
+            .button:active {
+                background-color: #3e8e41;
+                box-shadow: 0 3px #666;
+                transform: translateY(4px);
+            }
+            .ip{
+                -webkit-box-shadow: 
+                inset 0 0 8px  rgba(0,0,0,0.1),
+                0 0 16px rgba(0,0,0,0.1); 
+                -moz-box-shadow: 
+                inset 0 0 8px  rgba(0,0,0,0.1),
+                0 0 16px rgba(0,0,0,0.1); 
+                box-shadow: 
+                inset 0 0 8px  rgba(0,0,0,0.1),
+                0 0 16px rgba(0,0,0,0.1);
+                padding: 7px;
+                background: rgba(255,255,255,0.5);
+                
+
+            }
+            </style>
+    </head>
+    <body>
+        
+    <div class ="iform">
+            <h1>Play a Song</h1><br><br>
+	    <form action="/handle_data" method="post" class="text">
+            Enter the song name:  <input type="text" name="projectFilepath" class="ip"><br><br><br>
+		<center><input type="submit" class="button"></center>
+    </form>
+    </div>
+  
+    </body>
+</html>
