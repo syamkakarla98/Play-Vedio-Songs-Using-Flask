@@ -34,4 +34,4 @@
 
 * This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/syamkakarla98/Play-Vedio-Songs-Using-Flask/blob/master/LICENSE.md) file for details.
 
-# [STAR if ypu like this repositary]()
+# [STAR if you like this repositary]()
