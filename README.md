@@ -8,11 +8,13 @@
 
 ## Dependencies
 
-* Python 3.6ar above
-* Flask
-* wtforms
-* Beautiful Soup4
-* Requests
+* If you are not installed these packages install before you run the files. 
+
+``` python
+     pip install beautigulsoup4
+     pip install requests
+     pip install flask
+```
 
 ## How to run the file
 
